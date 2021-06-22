@@ -4,7 +4,7 @@
 
 # Live demo
 
->
+> https://gracious-hugle-c7b8e7.netlify.app/
 
 ![Design preview for the  coding challenge](./Screenshot_1.jpg)
 
