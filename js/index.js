@@ -51,7 +51,7 @@ function sequenceSuccess() {
         strict.checked ? 'strict' : 'normal',
         strict.checked ? attempts.strict : attempts.normal
       );
-    }, 400);
+    }, 100);
   } else {
     displayBodyMessage('You won! 😃😃😀', new Audio('./audio/Ta-Da.mp3'));
   }

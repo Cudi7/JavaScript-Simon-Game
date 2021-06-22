@@ -47,10 +47,13 @@ function activateSide(currentComputerSequence) {
   }
 
   currentComputerSequence.element.classList.add(className);
+  currentComputerSequence.audio.pause();
+  currentComputerSequence.audio.currentTime = 0;
   currentComputerSequence.audio.play();
+
   setTimeout(() => {
     currentComputerSequence.element.classList.remove(className);
-  }, 500);
+  }, 400);
 
   return className;
 }
