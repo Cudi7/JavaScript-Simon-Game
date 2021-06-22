@@ -11,7 +11,6 @@
 ## Table of contents
 
 - [General info](#general-info)
-- [Setup](#setup)
 - [Code Examples](#code-examples)
 - [Features](#features)
 - [Contact](#contact)
