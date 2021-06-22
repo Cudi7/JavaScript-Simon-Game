@@ -1,6 +1,6 @@
 # Simon Game
 
-> Simon Game build with JavaScript, HTML and CSS
+> Simon Game build with JavaScript, HTML and CSS 👻
 
 # Live demo
 
