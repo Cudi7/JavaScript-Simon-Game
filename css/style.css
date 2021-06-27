@@ -8,6 +8,8 @@
   font-size: 1.5em;
   padding: 3px 5px;
   background-color: lightgray;
+  z-index: 10px;
+  cursor: pointer;
 }
 
 #switches {
@@ -223,6 +225,10 @@
     align-items: center;
     width: 100%;
     margin: 1rem 0;
+  }
+
+  .button {
+    font-size: inherit;
   }
 
   .difficultyInput {
