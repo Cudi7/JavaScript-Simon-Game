@@ -218,15 +218,24 @@
     gap: 0.2rem;
   }
   .difficultyInput {
-    padding: 5px 10px;
+    padding: 6px 15px;
     color: whitesmoke;
     background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
   }
+
+  .difficultyLevel {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+
   #outer-circle {
     height: 300px;
     width: 300px;
     border-width: 5px;
-    margin-top: 140px;
+    margin-top: 160px;
   }
   #topleft {
     height: 150px;

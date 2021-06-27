@@ -7,6 +7,7 @@ const strict = document.querySelector('#strict');
 const sides = document.querySelectorAll('[data-side]');
 const audios = document.querySelectorAll('audio');
 const formDifficulty = document.querySelector('.form-difficulty');
+const difficultyLevelInput = document.querySelector('.difficultyLevel');
 
 let attempts = {
   normal: 0,
@@ -80,6 +81,7 @@ function resetGame() {
 
 function handleStart(e) {
   removeStartButton(start);
+  formDifficulty.style.display = 'none';
   startGame();
   document.querySelector('.difficultyInput').disabled = true;
 
@@ -97,6 +99,7 @@ function handleForm(e) {
   e.preventDefault();
   const radioBtn = document.querySelector('input[name="chooseone"]:checked');
   difficultyLevel = Number(radioBtn.value);
+  difficultyLevelInput.innerText = radioBtn.nextElementSibling.htmlFor;
 }
 
 start.addEventListener('click', handleStart);
