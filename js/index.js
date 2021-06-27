@@ -81,7 +81,6 @@ function resetGame() {
 function handleStart(e) {
   removeStartButton(start);
   startGame();
-  console.log(formDifficulty);
   document.querySelector('.difficultyInput').disabled = true;
 
   start.disabled = true;
@@ -97,8 +96,7 @@ function handlePower(e) {
 function handleForm(e) {
   e.preventDefault();
   const radioBtn = document.querySelector('input[name="chooseone"]:checked');
-  console.log(radioBtn.value);
-  difficultyLevel = radioBtn.value;
+  difficultyLevel = Number(radioBtn.value);
 }
 
 start.addEventListener('click', handleStart);
@@ -106,3 +104,7 @@ on.addEventListener('change', handlePower);
 formDifficulty.addEventListener('submit', handleForm);
 
 export { sequenceError, sequenceSuccess, resetGame };
+
+// ncaught TypeError: Cannot read property 'side' of undefined
+//     at activateSide (helpers.js:32)
+//     at UI.js:35
