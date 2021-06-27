@@ -79,7 +79,7 @@ function resetGame() {
   window.location.reload();
 }
 
-function handleStart(e) {
+function handleStart() {
   removeStartButton(start);
   formDifficulty.style.display = 'none';
   startGame();

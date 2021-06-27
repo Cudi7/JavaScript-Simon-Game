@@ -14,7 +14,7 @@
   position: absolute;
   font-family: 'Original Surfer', cursive;
   margin-left: 26px;
-  margin-top: 110px;
+  margin-top: 10px;
 }
 
 .text2 {
@@ -30,7 +30,7 @@
   position: absolute;
   font-family: 'Original Surfer', cursive;
   margin-left: 19px;
-  margin-top: 142px;
+  margin-top: 40px;
 }
 
 .text1 span:last-child {
@@ -60,7 +60,7 @@
   height: 30px;
   width: 50px;
   margin-left: 90px;
-  margin-top: 170px;
+  margin-top: 70px;
   text-align: center;
   vertical-align: middle;
   line-height: 30px;
@@ -218,9 +218,11 @@
 @media (max-width: 600px) {
   .form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 100%;
   }
 
   .difficultyInput {
@@ -241,7 +243,7 @@
     height: 300px;
     width: 300px;
     border-width: 5px;
-    margin-top: 160px;
+    margin-top: 210px;
   }
   #topleft {
     height: 150px;
@@ -299,12 +301,12 @@
 
   #switches {
     display: flex;
-    margin-top: 16rem;
+    margin-top: 10rem;
     margin-left: -25px;
   }
   .text1 {
     margin-left: -40px;
-    margin-top: 275px;
+    margin-top: 180px;
   }
 
   #turn {
@@ -316,7 +318,7 @@
     height: 30px;
     width: 50px;
     margin-left: 30px;
-    margin-top: 213px;
+    margin-top: 5px;
     text-align: center;
     vertical-align: middle;
     line-height: 30px;
