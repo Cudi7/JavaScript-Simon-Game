@@ -104,7 +104,3 @@ on.addEventListener('change', handlePower);
 formDifficulty.addEventListener('submit', handleForm);
 
 export { sequenceError, sequenceSuccess, resetGame };
-
-// ncaught TypeError: Cannot read property 'side' of undefined
-//     at activateSide (helpers.js:32)
-//     at UI.js:35
