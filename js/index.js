@@ -82,6 +82,8 @@ function resetGame() {
 function handleStart() {
   removeStartButton(start);
   formDifficulty.style.display = 'none';
+  const gameBoard = document.querySelector('#outer-circle');
+  gameBoard.style.height = '50px';
   startGame();
   document.querySelector('.difficultyInput').disabled = true;
 
