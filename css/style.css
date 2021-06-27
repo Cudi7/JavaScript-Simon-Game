@@ -210,6 +210,18 @@
 }
 
 @media (max-width: 600px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+  }
+  .difficultyInput {
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: rebeccapurple;
+  }
   #outer-circle {
     height: 300px;
     width: 300px;
@@ -254,7 +266,6 @@
   }
   #inner-circle {
     position: absolute;
-
     height: 125px;
     width: 125px;
     border-style: solid;
